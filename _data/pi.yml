@@ -1,0 +1,18 @@
+- name: Prof. Bhiksha Raj
+  photo: bhikshar.jpg
+  info: Bhiksha Raj Professor, Carnegie Mellon University
+  email: bhikshar@cs.cmu.edu
+  # github: https://github.com/
+  researchgate: https://www.researchgate.net/
+  scholar: https://scholar.google.com/citations?user=IWcGY98AAAAJ&hl=en
+  cv: cv/cv.pdf
+  # Change the items in "education" you have (up to 6)
+  education:
+    [
+      "(2000) Ph.D. Electrical and Computer Engineering, Carnegie Mellon University", 
+      "(1990) M.Tech. Electrical Engineering, Indian Institute of Technology", 
+      "(1988) B.E. Electrical Engineering, Indian Institute of Technology"
+    ]
+
+  educationshort:
+    ["(2000) Ph.D. Electrical and Computer Engineering, Carnegie Mellon University", "(1990) M.Tech. Electrical Engineering, Indian Institute of Technology", "(1988) B.E. Electrical Engineering, Indian Institute of Technology"]
