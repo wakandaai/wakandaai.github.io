@@ -37,7 +37,7 @@ iframe {
 <div class="jumbotron">
 <div class="row">
 <div class="col-sm-4">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ p.photo }}" width="100%" style="max-width:250px"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ p.photo }}" width="100%" style="max-width:250px"/></br>
     <i>*AI-generated image</i>
 </div>
 <div class="col-sm-8 col-xs-12">

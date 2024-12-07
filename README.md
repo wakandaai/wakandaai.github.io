@@ -1,5 +1,4 @@
-# Official Webpage of for the Wakanda AI Project
-
+# Official Webpage of the Wakanda AI Project
 
 ## Acknowledgment
 
