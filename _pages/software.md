@@ -34,20 +34,38 @@ iframe {
 }
 </style>
 
-## Software
+## Software Packages
 
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12">
-<h4><b>Example Software</b></h4>
-<a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
-<a href="https://github.com" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a>
-<a href="{{ site.url }}{{ site.baseurl }}/papers/example_proceeding.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
-<b>Authors:</b>
-<i>Example authors</i>
 
-Example software description.
+
+{% if site.data.software %}
+{% for s in site.data.software %}
+  <h5>{{ s.name }}</h5>
+  <ul style="list-style-type: none; margin: 0; padding: 0;">
+      <li>
+        <a href="{{ s.url }}" target="_blank"><button class="btn btn-success btn-sm">LINK</button></a>
+        <a href="{{ site.url }}{{ site.baseurl }}/docs/data_docs.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+      </li>
+      {% if s.authors %}
+      <h6>Author(s):</h6>
+      {% for auth in s.authors %}
+      <ul style="overflow: hidden">
+        <li> {{ auth }} </li>
+      </ul>
+      {% endfor %}
+      {% endif %}
+  </ul><br>
+    {% endfor %}
+
+{% else %}
+<div class="jumbotron">
+  Coming soon...
+</div>
+{% endif %}
 
 </div>
 </div>

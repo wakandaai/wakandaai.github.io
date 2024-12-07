@@ -1,11 +1,11 @@
-- name: Prof. Bhiksha Raj
-  photo: bhikshar.jpg
-  info: Bhiksha Raj Professor, Carnegie Mellon University
+- name: Bhiksha Raj
+  photo: bhikshar_new.jpg
+  info: Professor, Language Technologies Institute, Carnegie Mellon University (CMU)
   email: bhikshar@cs.cmu.edu
-  # github: https://github.com/
-  researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=IWcGY98AAAAJ&hl=en
-  cv: cv/cv.pdf
+  # researchgate: https://www.researchgate.net/
+  # scholar: https://scholar.google.com/citations?user=IWcGY98AAAAJ&hl=en
+  # cv: cv/bhikshar.pdf
+  website: https://www.lti.cs.cmu.edu/people/faculty/raj-bhiksha.html
   # Change the items in "education" you have (up to 6)
   education:
     [

@@ -1,0 +1,19 @@
+- name: Carnegie Mellon University
+  location: Pittsburgh, PA
+  image : CMU_logo.jpg
+  url: https://www.cmu.edu/
+
+- name: CMU-Africa
+  location: Kigali, Rwanda
+  image : CMU_Africa.png
+  url: https://www.africa.engineering.cmu.edu/
+
+- name: University of Nairobi
+  location: Nairobi, Kenya
+  image : UoN.png
+  url: https://www.uonbi.ac.ke/
+
+- name: Ecole Superieure Africaine des TIC (ESATIC)
+  location: Abidjan, Cote d'Ivoire
+  image : esatic_logo.jpg
+  url: https://esatic.ci/ 

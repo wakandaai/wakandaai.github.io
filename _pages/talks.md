@@ -20,14 +20,46 @@ permalink: /talks/
     margin-top:10px;
     margin-bottom:30px;
 }
+img{
+  border-radius: 10px;
+}
+.col-md-3 {
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:0px;
+  display:block;
+  overflow:hidden;
+  text-align:center;
+  display: table-cell;
+  background: white;
+  border-radius: 20px;
+  height: auto;
+}
+iframe {
+  margin:0;
+  padding:0;
+  width: 175px;
+  display: inline;
+  vertical-align: middle;
+}
 </style>
 
 <div class="jumbotron">
-### Invited talks
-{% bibliography --query @incollection[keywords ^= invited] %}
+### Invited Talks
+{% assign invited_talks = site.data.publications | where: "type", "incollection" | where_exp: "item", "item.keywords contains 'invited'" %}
+{% if invited_talks.size > 0 %}
+  {% bibliography --query @incollection[keywords ^= invited] %}
+{% else %}
+  <p>Coming soon!</p>
+{% endif %}
 </div>
 
 <div class="jumbotron">
-### Regular talks
-{% bibliography --query @incollection[keywords != invited] %}
+### Regular Talks
+{% assign regular_talks = site.data.publications | where: "type", "incollection" | where_exp: "item", "item.keywords contains 'invited' == false" %}
+{% if regular_talks.size > 0 %}
+  {% bibliography --query @incollection[keywords != invited] %}
+{% else %}
+  <p>Coming soon!</p>
+{% endif %}
 </div>

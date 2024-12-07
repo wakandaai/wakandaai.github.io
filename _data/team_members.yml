@@ -1,24 +1,27 @@
 - name: Moise Busogi
   photo: mbusogi.png
-  info: Assistan teaching Professor, started Dec 2024
+  info: Assistant teaching Professor, Co-PI (CMU-Africa)
   email: mbusogi@andrew.cmu.edu
+  # cv: cv/mbusogi.pdf
   website: https://engineering.cmu.edu/directory/bios/busogi-moise.html
 
 - name: Abraham Nyete
   photo: Dr_nyete.jpg
-  info: Senior Lecturer
+  info: Senior Lecturer, Co-PI (University of Nairobi)
   email: anyete@uonbi.ac.ke
+  # cv: cv/anyete.pdf
   website: https://eie.uonbi.ac.ke/node/169
 
 - name: Moustapha Diaby
   photo: mdiaby.jpeg
-  info: Associate Professor
+  info: Associate Professor, Co-PI (ESATIC)
   email: moustapha.diaby@esatic.edu.ci
-  website: 
+  # cv: cv/mdiaby.pdf
+  website: https://www.researchgate.net/profile/Diaby-Moustapha-2/research
 
 - name: Cedric Manouan
   photo: cmanouan.jpeg
-  info: Lead AI Engineer, started Dec 2024
+  info: Lead AI Engineer, (CMU-Africa, ESATIC)
   email: cmanouan@alumni.cmu.edu
   website: https://dric2018.github.io
 

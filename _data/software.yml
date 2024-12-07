@@ -1,0 +1,13 @@
+- name: Data Preparation Package
+  url: https://github.com/
+  docs: docs/data_docs.pdf
+  authors: [
+    "Cedric Manouan", "Alex Gichamba"
+  ]
+
+- name: Audio Processing and Dataset Creation
+  url: https://github.com/
+  docs: docs/data_docs.pdf
+  authors: [
+    "Alex Gichamba"
+  ]
