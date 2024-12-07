@@ -36,16 +36,16 @@ iframe {
 
 <div class="jumbotron">
 <div class="row">
-<div class="col-sm-4">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ p.photo }}" width="100%" style="max-width:250px"/></br>
-    <i>*AI-generated image</i>
+<div class="col-sm-4" style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ p.photo }}" width="100%" style="max-width:250px"/>
+  <br><i>*AI-generated image</i>
 </div>
-<div class="col-sm-8 col-xs-12">
+<div class="col-sm-8 col-xs-12" style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
   <h3>{{ p.name }}</h3>
-  <h4><i>{{ p.info }}</i></h4>
+  <h5><i>{{ p.info }}</i></h5>
   {% if p.email %}<a href="mailto:{{ p.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
   {% if p.github %} <a href="{{ p.github }}" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> {% endif %}
-  <h4>Duration: {{ p.duration }}</h4>
+  <h5>Duration: {{ p.duration }}</h5>
 </div>
 </div>
 </div>
