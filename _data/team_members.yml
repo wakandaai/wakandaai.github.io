@@ -12,12 +12,12 @@
   # cv: cv/anyete.pdf
   website: https://eie.uonbi.ac.ke/node/169
 
-- name: Moustapha Diaby
-  photo: mdiaby.jpeg
-  info: Associate Professor, Co-PI (ESATIC)
-  email: moustapha.diaby@esatic.edu.ci
-  # cv: cv/mdiaby.pdf
-  website: https://www.researchgate.net/profile/Diaby-Moustapha-2/research
+# - name: Moustapha Diaby
+#   photo: mdiaby.jpeg
+#   info: Associate Professor, Co-PI (ESATIC)
+#   email: moustapha.diaby@esatic.edu.ci
+#   # cv: cv/mdiaby.pdf
+#   website: https://www.researchgate.net/profile/Diaby-Moustapha-2/research
 
 - name: Cedric Manouan
   photo: cmanouan.jpeg
